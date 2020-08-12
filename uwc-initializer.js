@@ -4,7 +4,7 @@
  * Licensed under GPL 3.0 */
 
 import UWC from "./uwc/unity-webrtc-control.js";
-import StaticEventDispatcher from "./uwc/static-event-dispatcher";
+import StaticEventDispatcher from "./uwc/static-event-dispatcher.js";
 
 const uwc = new UWC();
 const eventDispatcher = new StaticEventDispatcher();
